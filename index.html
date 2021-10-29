@@ -17,6 +17,10 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>  -->
     <!-- <script src="jquery.bxslider/jquery.bxslider.js"></script> -->
     <script src="./js/iscroll-zoom.js"></script>
+    <script src="./js/data.json" type="text/javascript"></script>
+
+    <script type="text/javascript" src="./js/data.json"></script>
+    <script type="text/javascript" src="javascrip.js"></script>
   </head>
   <body id="ticketAppDown">
     
@@ -49,7 +53,9 @@
 
       function click(){
         'use strict';
-        
+        fetch('./js/data.json')
+          .then(response => response.json())
+          .then(jsonResponse => console.log(jsonResponse))
           // const message_span = document.querySelector('#message');
         
           let my = {
