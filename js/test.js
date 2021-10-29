@@ -1,4 +1,4 @@
-data = [{
+var data = [{
     "Employees": {
 
         "name": "John",
