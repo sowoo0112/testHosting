@@ -1,30 +1,142 @@
 {
-    "app_name": "shop_ent",
-    "app_display_name": "인터파크 - 운영",
-    "app_os": "iOS",
-    "app_icon_url": "https://appcenter-filemanagement-distrib1ede6f06e.azureedge.net/8323ae9f-9401-4cc5-b504-d2849c68a9bc/AppIcon60x60%402x.png?sv=2019-02-02&sr=c&sig=voE4GQEhKa7Fls9qK4ilG6ifIsOFzKiFBJkZOHnkks4%3D&se=2021-11-01T04%3A51%3A59Z&sp=r",
-    "is_external_build": false,
-    "origin": "appcenter",
-    "id": 819,
-    "version": "1",
-    "short_version": "4.4.5",
-    "size": 149523315,
-    "min_os": "11.0",
-    "device_family": "iPhone/iPod",
-    "bundle_identifier": "com.interparkm.enter.interparshop",
-    "fingerprint": "466dfc75f21524f04eb305d943ea19a3",
-    "uploaded_at": "2021-10-25T04:52:16.566Z",
-    "download_url": "https://appcenter-filemanagement-distrib4ede6f06e.azureedge.net/7f1086ee-be03-4052-aed0-6ecebfb3eab1/iShopE.ipa?sv=2019-02-02&sr=c&sig=Xtk%2Fr9Tvj%2FulJ55PSvAsWwxMwD7mwxde1ciaqwF0xGo%3D&se=2021-10-30T06%3A10%3A45Z&sp=r",
-    "install_url": "itms-services://?action=download-manifest&url=https%3A%2F%2Fappcenter.ms%2Fapi%2Fv0.1%2Fpublic%2Fapps%2Fbfbfa15e-47f2-4406-95d8-7e7ee662b84c%2Freleases%2F819%2Fios_manifest%3Ftoken%3DP3N2PTIwMTktMDItMDImc3I9YyZzaWc9WHRrJTJGcjlUdmolMkZ1bEo1NVBTdkFzV3d4TXdEN213eGRlMWNpYXF3RjB4R28lM0Qmc2U9MjAyMS0xMC0zMFQwNiUzQTEwJTNBNDVaJnNwPXI%3D",
-    "enabled": true,
-    "fileExtension": "ipa",
-    "provisioning_profile_type": "enterprise",
-    "provisioning_profile_expiry_date": "2022-10-07T07:37:33.000Z",
-    "provisioning_profile_name": "E_interparkShop",
-    "is_provisioning_profile_syncing": false,
-    "release_notes": "찜리스트/단골샵 분기 적용",
-    "package_hashes": [
-        "c4dc13756813f9ac86ae0f50898bb622bafbf712f826707e8013a96186ab163b"
+    "CARD_COUPON_INFO": [ ],
+    "COUPON_INFO": [
+    {
+    "COUPON_NO": "65606473",
+    "COUPON_PBLCT_NO": "130807852",
+    "COUPON_NM": "[6%]인터파크 계절 할인쿠폰",
+    "COUPON_DUP_YN": "Y",
+    "AVAIL_END_DTS": "2016-11-10 23:59",
+    "DIS_LMT_AMT": "300000",
+    "COUPON_COND": "10000",
+    "REL_DC_NUM": "17940",
+    "COUPON_DC_TP": "Y",
+    "COUPON_STAT": "Y",
+    "ORDER_SEQ": "1",
+    "YELLOW_COUPON": "N",
+    "MO_APP_ONLY_YN": "N",
+    "IN_SHARE_ORDER": "1"
+    },
+    
+    {
+    "COUPON_NO": "65596828",
+    "COUPON_PBLCT_NO": "130691414",
+    "COUPON_NM": "[중복 2%] 계절가전 주력업체 중복쿠폰",
+    "COUPON_DUP_YN": "Y",
+    "AVAIL_END_DTS": "2016-11-10 23:59",
+    "DIS_LMT_AMT": "300000",
+    "COUPON_COND": "10000",
+    "REL_DC_NUM": "5980",
+    "COUPON_DC_TP": "N",
+    "COUPON_STAT": "Y",
+    "ORDER_SEQ": "1",
+    "YELLOW_COUPON": "N",
+    "MO_APP_ONLY_YN": "N",
+    "IN_SHARE_ORDER": "1"
+    },
+    
+    {
+    "COUPON_NO": "65596828",
+    "COUPON_PBLCT_NO": "130691414",
+    "COUPON_NM": "[추가 1%] 계절가전 1111주력업체 중복쿠폰",
+    "COUPON_DUP_YN": "N",
+    "AVAIL_END_DTS": "2016-11-12 21:59",
+    "DIS_LMT_AMT": "300000",
+    "COUPON_COND": "10000",
+    "REL_DC_NUM": "5980",
+    "COUPON_DC_TP": "L",
+    "COUPON_STAT": "Y",
+    "ORDER_SEQ": "1",
+    "YELLOW_COUPON": "N",
+    "MO_APP_ONLY_YN": "Y",
+    "IN_SHARE_ORDER": "1"
+    }
+    ,
+    
+    {
+    "COUPON_NO": "65596828",
+    "COUPON_PBLCT_NO": "130691414",
+    "COUPON_NM": "[중복 2%] 계절가전 주력업체 중복쿠폰",
+    "COUPON_DUP_YN": "Y",
+    "AVAIL_END_DTS": "2016-11-10 23:59",
+    "DIS_LMT_AMT": "300000",
+    "COUPON_COND": "10000",
+    "REL_DC_NUM": "5980",
+    "COUPON_DC_TP": "N",
+    "COUPON_STAT": "Y",
+    "ORDER_SEQ": "1",
+    "YELLOW_COUPON": "N",
+    "MO_APP_ONLY_YN": "N",
+    "IN_SHARE_ORDER": "1"
+    },
+    
+    {
+    "COUPON_NO": "65596828",
+    "COUPON_PBLCT_NO": "130691414",
+    "COUPON_NM": "[중복 2%] 계절가전 주력업체 중복쿠폰",
+    "COUPON_DUP_YN": "Y",
+    "AVAIL_END_DTS": "2016-11-10 23:59",
+    "DIS_LMT_AMT": "300000",
+    "COUPON_COND": "10000",
+    "REL_DC_NUM": "5980",
+    "COUPON_DC_TP": "N",
+    "COUPON_STAT": "Y",
+    "ORDER_SEQ": "1",
+    "YELLOW_COUPON": "N",
+    "MO_APP_ONLY_YN": "N",
+    "IN_SHARE_ORDER": "1"
+    },
+    
+    {
+    "COUPON_NO": "65596828",
+    "COUPON_PBLCT_NO": "130691414",
+    "COUPON_NM": "[중복 2%] 계절가전 주력업체 중복쿠폰",
+    "COUPON_DUP_YN": "Y",
+    "AVAIL_END_DTS": "2016-11-10 23:59",
+    "DIS_LMT_AMT": "300000",
+    "COUPON_COND": "10000",
+    "REL_DC_NUM": "5980",
+    "COUPON_DC_TP": "N",
+    "COUPON_STAT": "Y",
+    "ORDER_SEQ": "1",
+    "YELLOW_COUPON": "N",
+    "MO_APP_ONLY_YN": "N",
+    "IN_SHARE_ORDER": "1"
+    },
+    
+    {
+    "COUPON_NO": "65596828",
+    "COUPON_PBLCT_NO": "130691414",
+    "COUPON_NM": "[중복 2%] 계절가전 주력업체 중복쿠폰",
+    "COUPON_DUP_YN": "Y",
+    "AVAIL_END_DTS": "2016-11-10 23:59",
+    "DIS_LMT_AMT": "300000",
+    "COUPON_COND": "10000",
+    "REL_DC_NUM": "5980",
+    "COUPON_DC_TP": "N",
+    "COUPON_STAT": "Y",
+    "ORDER_SEQ": "1",
+    "YELLOW_COUPON": "N",
+    "MO_APP_ONLY_YN": "N",
+    "IN_SHARE_ORDER": "1"
+    },
+    
+    {
+    "COUPON_NO": "65596828",
+    "COUPON_PBLCT_NO": "130691414",
+    "COUPON_NM": "[중복 2%] 계절가전 주력업체 중복쿠폰",
+    "COUPON_DUP_YN": "Y",
+    "AVAIL_END_DTS": "2016-11-10 23:59",
+    "DIS_LMT_AMT": "300000",
+    "COUPON_COND": "10000",
+    "REL_DC_NUM": "5980",
+    "COUPON_DC_TP": "N",
+    "COUPON_STAT": "Y",
+    "ORDER_SEQ": "1",
+    "YELLOW_COUPON": "N",
+    "MO_APP_ONLY_YN": "N",
+    "IN_SHARE_ORDER": "1"
+    }
     ],
-    "destinations": []
-}
+    "RES_CODE": "A"
+    }
