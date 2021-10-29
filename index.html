@@ -19,6 +19,7 @@
     <!-- <script src="jquery.bxslider/jquery.bxslider.js"></script> -->
     <script src="./js/iscroll-zoom.js"></script>
     <script src="./js/data.json" type="text/javascript"></script>
+    <script ttype="text/javascript" src="./js/test.json"></script>
 
     <!-- <script type="text/javascript" src="./js/data.json"></script>
     <script type="text/javascript" src="javascrip.js"></script> -->
@@ -104,10 +105,15 @@
 
 
         //로컬 assets 파일에 저장된 json 파일 읽기 실시 [json 파일에 선언된 변수이름으로 호출해야합니다]
+
+
         var jsonData = JSON.parse(JSON.stringify(data));
-        console.log("");
-        console.log("[main] : [jsonData] : " + JSON.stringify(jsonData)); 
-        console.log("");
+
+        
+        // var jsonData = JSON.parse(JSON.stringify(data));
+        // console.log("");
+        // console.log("[main] : [jsonData] : " + JSON.stringify(jsonData)); 
+        // console.log("");
 
 
         //json 데이터 파싱 실시
