@@ -61,7 +61,6 @@
           })
       }
       function googleClick(){
-        'use strict';
         fetch('./js/data.json')
           .then(response => response.text())
           .then(jsonResponse => {
@@ -72,6 +71,54 @@
           })
       }
   
+
+
+/*
+[JS 요약 설명]
+1. window.onload : 웹페이지 로드 완료 상태를 나타냅니다
+2. JSON.stringify : json 형식 데이터를 문자열로 나타내줍니다
+3. JSON.parse : json 데이터를 파싱해서 사용합니다
+4. 참고 : 로컬에 저장되는 json 파일에서 특정 변수명을 지정해줘야 정상적으로 json 파일을 로드할 수 있습니다    	
+*/
+
+
+
+/* [html 최초 로드 및 이벤트 상시 대기 실시] */
+window.onload = function() {
+  console.log("");
+  console.log("[window onload] : [start]");
+  console.log(""); 
+
+  // [이벤트 함수 호출]
+  main();
+}; 		
+
+
+
+/* [이벤트 수행 함수] */
+function main(){
+  console.log("");
+  console.log("[main] : [start]"); 
+  console.log("");
+
+
+  //로컬 assets 파일에 저장된 json 파일 읽기 실시 [json 파일에 선언된 변수이름으로 호출해야합니다]
+  var jsonData = JSON.parse(JSON.stringify(test));
+  console.log("");
+  console.log("[main] : [jsonData] : " + JSON.stringify(jsonData)); 
+  console.log("");
+
+
+  //json 데이터 파싱 실시
+  console.log("");
+  console.log("[main] : [idx] : " + jsonData.idx); 
+  console.log("[main] : [name] : " + jsonData.name); 
+  console.log("[main] : [program] : " + JSON.stringify(jsonData.program)); 
+  console.log("");
+
+};
+
+
     </script>
   </body>
 </html>
