@@ -11,10 +11,11 @@
     <link rel="shortcut icon" href="/images/icons/favicon.ico">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/ticketAppDown.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <!-- <script src="./js/jquery-1.11.2.min.js"></script> -->
     <!-- <script src="//code.jquery.com/jquery-3.3.1.min.js"></script> -->
     <!-- <script src="./js/jquery.bxslider.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>  -->
+      -->
     <!-- <script src="jquery.bxslider/jquery.bxslider.js"></script> -->
     <script src="./js/iscroll-zoom.js"></script>
     <script src="./js/data.json" type="text/javascript"></script>
@@ -115,6 +116,10 @@
         console.log("[main] : [name] : " + jsonData.name); 
         console.log("[main] : [program] : " + JSON.stringify(jsonData.program)); 
         console.log("");
+
+        $.getJSON("./js/data.json", function(json) {
+          console.log(json); // this will show the info it in firebug console
+        });
 
       };
 
