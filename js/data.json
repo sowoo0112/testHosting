@@ -1,4 +1,4 @@
-var jsonObject = {
+{
     "start": {
         "count": "5",
         "title": "start",
@@ -20,4 +20,4 @@ var jsonObject = {
             }
         ]
     }
-    }
+}
