@@ -1,1 +1,4 @@
-[{"data1":"a","data2":"b"},{"data1":"a1","data2":"b2"}]
+{
+    "iOS": "itms-services://?action=download-manifest&url=https%3A%2F%2Fappcenter.ms%2Fapi%2Fv0.1%2Fpublic%2Fapps%2Fbfbfa15e-47f2-4406-95d8-7e7ee662b84c%2Freleases%2F819%2Fios_manifest%3Ftoken%3DP3N2PTIwMTktMDItMDImc3I9YyZzaWc9QmVXVDRxQTl0THBNT1VJdjZoa2NHVElkR0pjbHo2Vklyek1zZnJ5akdJcyUzRCZzZT0yMDIxLTEwLTI5VDA1JTNBNTclM0E0OVomc3A9cg%3D%3D",
+    "Android": "https://appcenter-filemanagement-distrib1ede6f06e.azureedge.net/68cdc00c-96d4-490c-ae6f-63e1c9e48fce/app-prod-debug.apk?sv=2019-02-02&sr=c&sig=iGC4AH%2F%2B6jeBSufvtegUax7ZxNO8xUWNkcCL8uMIhw4%3D&se=2021-10-29T05%3A57%3A31Z&sp=r"
+  }
