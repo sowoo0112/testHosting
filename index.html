@@ -58,19 +58,19 @@
           .then(response => response.json())
           .then(jsonResponse => {
             console.log(jsonResponse)
-            console.log(jsonResponse[0].iOS)
-            console.log(jsonResponse[0].Android)
-            window.location.href = jsonResponse[0].iOS
+            // console.log(jsonResponse[0].iOS)
+            // console.log(jsonResponse[0].Android)
+            // window.location.href = jsonResponse[0].iOS
           })
       }
       function googleClick(){
         fetch('./js/data.json')
-          .then(response => response.text())
+          .then(response => response.json())
           .then(jsonResponse => {
             console.log(jsonResponse)
-            console.log(jsonResponse[0].iOS)
-            console.log(jsonResponse[0].Android)
-            window.location.href = jsonResponse[0].Android
+            // console.log(jsonResponse[0].iOS)
+            // console.log(jsonResponse[0].Android)
+            // window.location.href = jsonResponse[0].Android
           })
       }
   
