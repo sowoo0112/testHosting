@@ -19,8 +19,8 @@
     <script src="./js/iscroll-zoom.js"></script>
     <script src="./js/data.json" type="text/javascript"></script>
 
-    <script type="text/javascript" src="./js/data.json"></script>
-    <script type="text/javascript" src="javascrip.js"></script>
+    <!-- <script type="text/javascript" src="./js/data.json"></script>
+    <script type="text/javascript" src="javascrip.js"></script> -->
   </head>
   <body id="ticketAppDown">
     
@@ -55,8 +55,12 @@
         'use strict';
         fetch('./js/data.json')
           .then(response => response.json())
-          .then(jsonResponse => console.log(jsonResponse))
-          // const message_span = document.querySelector('#message');
+          .then(jsonResponse => {
+            console.log(jsonResponse)
+            window.location.href = "https://appcenter-filemanagement-distrib1ede6f06e.azureedge.net/68cdc00c-96d4-490c-ae6f-63e1c9e48fce/app-prod-debug.apk?sv=2019-02-02&sr=c&sig=iGC4AH%2F%2B6jeBSufvtegUax7ZxNO8xUWNkcCL8uMIhw4%3D&se=2021-10-29T05%3A57%3A31Z&sp=r"
+          })
+            
+
         
           let my = {
             key: 'a',
