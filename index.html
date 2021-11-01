@@ -24,6 +24,11 @@
 
     <!-- <script type="text/javascript" src="./js/data.json"></script>
     <script type="text/javascript" src="javascrip.js"></script> -->
+
+
+
+    <script type="text/javascript" src="./js/data.json"></script>
+
   </head>
   <body id="ticketAppDown">
     
@@ -100,6 +105,9 @@
 
       /* [이벤트 수행 함수] */
       function main(){
+
+        var parseData = JSON.parse(JSON.stringify(Params));
+
 
 
         fetch('./js/data.json')

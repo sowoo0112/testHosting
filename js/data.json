@@ -1,2 +1,5 @@
-{"users":"a"}
-
+Params ={ 
+    "title" : "제목",
+    "name" : "독자1",
+    "price" : "1,000원"
+  }
