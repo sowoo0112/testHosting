@@ -110,41 +110,41 @@
 
 
 
-        fetch('./js/data.json')
-        .then(response => {
-          return response.json();
-        })
-        .then(data => console.log(data));
+        // fetch('./js/data.json')
+        // .then(response => {
+        //   return response.json();
+        // })
+        // .then(data => console.log(data));
 
 
 
-        console.log("");
-        console.log("[main] : [start]"); 
-        console.log("");
+        // console.log("");
+        // console.log("[main] : [start]"); 
+        // console.log("");
 
 
-        //로컬 assets 파일에 저장된 json 파일 읽기 실시 [json 파일에 선언된 변수이름으로 호출해야합니다]
-
-
-        var jsonData = JSON.parse(JSON.stringify(data));
+        // //로컬 assets 파일에 저장된 json 파일 읽기 실시 [json 파일에 선언된 변수이름으로 호출해야합니다]
 
 
         // var jsonData = JSON.parse(JSON.stringify(data));
+
+
+        // // var jsonData = JSON.parse(JSON.stringify(data));
+        // // console.log("");
+        // // console.log("[main] : [jsonData] : " + JSON.stringify(jsonData)); 
+        // // console.log("");
+
+
+        // //json 데이터 파싱 실시
         // console.log("");
-        // console.log("[main] : [jsonData] : " + JSON.stringify(jsonData)); 
+        // console.log("[main] : [idx] : " + jsonData.idx); 
+        // console.log("[main] : [name] : " + jsonData.name); 
+        // console.log("[main] : [program] : " + JSON.stringify(jsonData.program)); 
         // console.log("");
 
-
-        //json 데이터 파싱 실시
-        console.log("");
-        console.log("[main] : [idx] : " + jsonData.idx); 
-        console.log("[main] : [name] : " + jsonData.name); 
-        console.log("[main] : [program] : " + JSON.stringify(jsonData.program)); 
-        console.log("");
-
-        $.getJSON("./js/data.json", function(json) {
-          console.log(json); // this will show the info it in firebug console
-        });
+        // $.getJSON("./js/data.json", function(json) {
+        //   console.log(json); // this will show the info it in firebug console
+        // });
 
       };
 
