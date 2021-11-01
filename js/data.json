@@ -1,5 +1,4 @@
-Params ={ 
-    "title" : "제목",
-    "name" : "독자1",
-    "price" : "1,000원"
+links ={ 
+    "ios" : "제목",
+    "android" : "독자1"
   }
